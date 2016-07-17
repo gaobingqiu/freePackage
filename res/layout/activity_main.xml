@@ -9,8 +9,22 @@
     tools:context="com.example.freepackage.MainActivity" >
 
     <TextView
+        android:id="@+id/myTextView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+    
+    <Button
+        android:id="@+id/myButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+    
+    <EditText
+        android:id="@+id/myEditText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hello_world"
         android:text="@string/hello_world" />
 
 </RelativeLayout>
